@@ -96,12 +96,10 @@ function createRenderer() {
 
   renderer.gammaFactor = 2.2;
   renderer.gammaOutput = true;
-  renderer.vr.enabled = true;
 
   renderer.physicallyCorrectLights = true;
 
   container.appendChild(renderer.domElement);
-  document.body.appendChild(THREE.WEBVR.createButton(renderer));
 
 }
 
